@@ -7,7 +7,7 @@ import SearchFilters from "@/components/SearchFilters";
 import Property from "@/components/Property";
 import noresult from "../assets/images/noresult.svg"
 
-import { baseUrl, fetchApi } from "@/utils/fetchApi";
+import { baseUrl, FetchApi } from "@/utils/FetchAPI";
 
 const Search = ({ properties }) => {
     const [searchFilters, setSearchFilters] = useState(false)
