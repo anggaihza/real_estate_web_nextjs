@@ -20,6 +20,7 @@ const SearchFilters = () => {
   const router = useRouter();
 
   const searchProperties = (filterValues) => {
+    
     const path = router.pathname;
     const {query} = router;
 
